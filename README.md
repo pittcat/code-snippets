@@ -1,2 +1,2 @@
 # code-snippets
-Snippets collection
+Snippets collection for common programming languages.
