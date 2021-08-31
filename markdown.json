@@ -1,0 +1,34 @@
+{
+  "h1": {
+    "prefix": "h1",
+    "body": "#",
+    "description": "Header 1"
+  },
+  "h2": {
+    "prefix": "h2",
+    "body": "##",
+    "description": "Header 2"
+  },
+  "h3": {
+    "prefix": "h3",
+    "body": "###",
+    "description": "Header 3"
+  },
+
+  "h4": {
+    "prefix": "h4",
+    "body": "####",
+    "description": "Header 4"
+  },
+  "code": {
+    "prefix": "code",
+    "body": "```${1:language}\n```",
+    "description": "Code block"
+  },
+
+  "bold": {
+    "prefix": "bold",
+    "body": "**${1:body}**",
+    "description": "Bold body"
+  }
+}
