@@ -1,23 +1,23 @@
 {
   "h1": {
     "prefix": "h1",
-    "body": "#",
+    "body": "# ",
     "description": "Header 1"
   },
   "h2": {
     "prefix": "h2",
-    "body": "##",
+    "body": "## ",
     "description": "Header 2"
   },
   "h3": {
     "prefix": "h3",
-    "body": "###",
+    "body": "### ",
     "description": "Header 3"
   },
 
   "h4": {
     "prefix": "h4",
-    "body": "####",
+    "body": "#### ",
     "description": "Header 4"
   },
   "code": {
