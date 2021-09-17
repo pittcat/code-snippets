@@ -30,5 +30,10 @@
     "prefix": "bold",
     "body": "**${1:body}**",
     "description": "Bold body"
+  },
+  "img center":{
+    "prefix":"imgct",
+    "body":"<p align = 'center'>\n<img src = '${1:Image Path}'>\n</p>\n<p align = 'center'>\n${2:Title}\n</p>",
+    "description":"Insert an image at center"
   }
 }
