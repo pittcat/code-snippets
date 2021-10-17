@@ -1,12 +1,20 @@
 {
-  "#!/usr/bin/env python": {
-    "prefix": "pyinit",
-    "body": "#!/usr/bin/env python\n$0# -*- coding=utf-8 -*-\n$1",
-    "description": "Adds shebang line and encoding specification."
-  },
+    "#!/usr/bin/env python": {
+        "prefix": "pyinit",
+        "body": "#!/usr/bin/env python\n$0# -*- coding=utf-8 -*-\n$1",
+        "description": "Adds shebang line and encoding specification."
+    },
     "test function name": {
         "prefix": "deft",
         "body": "def test_${1:name}(${2:args}):\n\t${3:pass}$0",
-        "description" : "Create a  test function."
+        "description": "Create a  test function."
+    },
+    "data science init": {
+        "prefix": "dsinit",
+        "body": [
+            "#!/usr/bin/env python\n$0# -*- coding=utf-8 -*-\nimport numpy as np\n",
+            "import matplotlib.pyplot as plt\nimport pandas as pd\n$1"
+        ],
+        "description": "Adds shebang line and encoding specification."
     }
 }
