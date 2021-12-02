@@ -6,7 +6,7 @@
     },
     "test function name": {
         "prefix": "deft",
-        "body": "def test_${1:name}(${2:args}):\n\t${3:pass}$0",
+        "body": "def test_1:name({2:args}):\n\t3:pass0",
         "description": "Create a  test function."
     },
     "data science init": {
