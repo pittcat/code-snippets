@@ -4,11 +4,6 @@
         "body": "#!/usr/bin/env python\n$0# -*- coding=utf-8 -*-\n$1",
         "description": "Adds shebang line and encoding specification."
     },
-    "test function name": {
-        "prefix": "deft",
-        "body": "def test_1:name({2:args}):\n\t3:pass0",
-        "description": "Create a  test function."
-    },
     "data science init": {
         "prefix": "dsinit",
         "body": [
