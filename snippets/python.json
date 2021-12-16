@@ -1,13 +1,13 @@
 {
     "#!/usr/bin/env python": {
         "prefix": "pyinit",
-        "body": "#!/usr/bin/env python\n$0# -*- coding=utf-8 -*-\n$1",
+        "body": "#!/usr/bin/env python\n$0# -*- coding=utf-8 -*-\nimport typing$1",
         "description": "Adds shebang line and encoding specification."
     },
     "data science init": {
         "prefix": "dsinit",
         "body": [
-            "#!/usr/bin/env python\n$0# -*- coding=utf-8 -*-\nimport numpy as np\n",
+            "#!/usr/bin/env python\n$0# -*- coding=utf-8 -*-\nimport typing\nimport numpy as np\n",
             "import matplotlib.pyplot as plt\nimport pandas as pd\n$1"
         ],
         "description": "Adds shebang line and encoding specification."
