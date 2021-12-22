@@ -9,7 +9,7 @@
     "data science init": {
         "prefix": "dsinit",
         "body": [
-            "#!/usr/bin/env python\n$0# -*- coding=utf-8 -*-\nimport typing\nimport numpy as np\n",
+            "#!/usr/bin/env python\n$0# -*- coding=utf-8 -*-\nimport numpy as np\n",
             "import matplotlib.pyplot as plt\nimport pandas as pd\n",
             "import numpy.typing as npt\n$1"
         ],
