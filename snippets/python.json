@@ -1,15 +1,23 @@
 {
     "#!/usr/bin/env python": {
         "prefix": "pyinit",
-        "body": "#!/usr/bin/env python\n$0# -*- coding=utf-8 -*-\nimport typing$1",
+        "body": [
+            "#!/usr/bin/env python\n$0# -*- coding=utf-8 -*-\n"
+        ],
         "description": "Adds shebang line and encoding specification."
     },
     "data science init": {
         "prefix": "dsinit",
         "body": [
             "#!/usr/bin/env python\n$0# -*- coding=utf-8 -*-\nimport typing\nimport numpy as np\n",
-            "import matplotlib.pyplot as plt\nimport pandas as pd\n$1"
+            "import matplotlib.pyplot as plt\nimport pandas as pd\n",
+            "import numpy.typing as npt\n$1"
         ],
         "description": "Adds shebang line and encoding specification."
+    },
+    "pythong base typing": {
+        "prefix": "typings",
+        "body": "from typing import (\n\tAny,\n\tList,\n\tTuple,\n\tSet,\n\tDict,\n\tIterable,\n\tUnion,\n\tOptional,\n\tGenerator,\n\tCallable,\n\tNoReturn,)\n$0",
+        "description": "Add base typings"
     }
 }
