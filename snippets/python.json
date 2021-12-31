@@ -19,5 +19,14 @@
         "prefix": "typings",
         "body": "from typing import (\n\tAny,\n\tList,\n\tTuple,\n\tSet,\n\tDict,\n\tIterable,\n\tUnion,\n\tOptional,\n\tGenerator,\n\tCallable,\n\tNoReturn,\n)\n$1",
         "description": "Add base typings"
+    },
+    "document for file": {
+        "prefix": "docc",
+        "body": [
+            "\"\"\"\nFile: ${TM_FILENAME/(.).](.)/$0/g}",
+            "Description: $1",
+            "\"\"\""
+        ],
+        "description": "Add description for file"
     }
 }
