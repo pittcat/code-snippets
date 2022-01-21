@@ -28,5 +28,10 @@
             "\"\"\""
         ],
         "description": "Add description for file"
+    },
+    "check variable type":{
+        "prefix":"cce",
+        "body":["print(type($1))$0"],
+        "description":"print variable type"
     }
 }
