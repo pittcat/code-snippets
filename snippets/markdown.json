@@ -37,7 +37,7 @@
 
     "latex code": {
         "prefix": "ltx",
-        "body": "$${1:latex}\n$",
+        "body": "$\n${1:latex}\n$",
         "description": "Code block"
     }
 }
