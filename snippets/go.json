@@ -1,0 +1,12 @@
+{
+    "go init": {
+        "prefix": "goinit",
+        "body": [
+            "package main\n\n",
+            "func main() {",
+            "\t$1",
+            "}"
+        ],
+        "description": "Go Init Header"
+    }
+}
