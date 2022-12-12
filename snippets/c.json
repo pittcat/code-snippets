@@ -1,7 +1,7 @@
 {
     "cinit": {
         "prefix": "cinit",
-        "body": "#include <stdio.h>\n\nint main() {\n\t$0\n\treturn 0;\n}",
+        "body": "#include <stdio.h>\n#include <stdlib.h>\n\nint main() {\n\t$0\n\treturn 0;\n}",
         "description": "Adds shebang line and encoding specification."
     }
 }
